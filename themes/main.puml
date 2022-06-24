@@ -1,0 +1,31 @@
+@startuml
+scale 700 width
+
+<style>
+  sequenceDiagram {
+    FontName Inter
+  }
+
+  document {
+    BackgroundColor #F6F1EB
+    FontColor #412E1A
+    Margin 20
+  }
+
+  box {
+    Margin 10
+  }
+
+  note, actor, entity, participant, component, database {
+    BackgroundColor #F8E5BC
+  }
+</style>
+
+skinparam {
+  activity {
+    BackgroundColor #2B2622
+    BorderColor #E2D0B6
+    FontColor #E2D0B6
+  }
+}
+@enduml
